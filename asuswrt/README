@@ -1,0 +1,14 @@
+Just follow the official guide to build it.
+I use Linux Mint 19.1 for example:
+	
+1. Install the dependences:
+
+sudo apt install libncurses5 libncurses5-dev m4 bison gawk flex g++-4.8 libstdc++6-4.8-dbg g++ gengetopt git-core gitk zlib1g-dev autoconf autopoint libtool shtool autogen mtd-utils intltool sharutils docbook-xsl-* libstdc++5 texinfo dos2unix xsltproc u-boot-tools device-tree-compiler python2.7 libc6-i386 lib32stdc++6 lib32z1 
+
+2. Moving toolchains to /opt according to official guide.
+
+3. Add toolchain to PATH
+
+export PATH=/opt/brcm/hndtools-mipsel-linux/bin:/opt/brcm/hndtools-mipsel-uclibc/bin:/opt/buildroot-gcc463/bin:$PATH
+
+4. Copy hw_nat folder to asuswrt/router/src/router/hw_nat.The code was picked from Padavan's repository.Thanks a lot.
