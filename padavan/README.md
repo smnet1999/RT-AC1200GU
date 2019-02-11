@@ -2,7 +2,7 @@
 
 **Note**: The configration enables Chinese Simplified translation.You need to download [the dictionary file](https://github.com/gorden5566/padavan/raw/master/trunk/user/www/dict/CN.dict) and put them into ``/trunk/user/www/dict/`` ,then edit ``trunk/user/www/Makefile`` to enable it.  
 
-***  
+***
 Just as Beijing No.3 Transportation Division said,"Routes are countless. Safety is foremost. Unregulated driving. Loved ones end up in tears."When we compiling,making toolchains happy is foremost. If you compile it on Ubuntu 18.04 (GCC7),you may face the following error:  
 ````
 scripts/kconfig/zconf.tab.o: In function `zconflex':
